@@ -1,5 +1,5 @@
 # FACT: Federated Adversarial Cross Training
-This repository implements FACT as introduced by [[1]](ADDLINK). FACT provides a highly efficient framework for federated multi-source-single-target domain adaptation. It uses the implicit distributional differences between source clients pairs to adapt to the domain of an independent target client.
+This repository implements FACT as introduced by Schrod et al. 2023 [[1]](https://arxiv.org/abs/2306.00607). FACT provides a highly efficient framework for federated multi-source-single-target domain adaptation. It uses the implicit distributional differences between source clients pairs to adapt to the domain of an independent target client.
 
 
 ### Download the data
@@ -41,7 +41,7 @@ bash scripts/experiment_evaluate.sh
 
 
 ## References
-[1] FACT: Federated Adversarial Cross Training
+[1] Schrod, Stefan, et al. "FACT: Federated Adversarial Cross Training." arXiv preprint arXiv:2306.00607 (2023).
 
 [2] Peng, Xingchao, et al. "Federated adversarial domain adaptation." arXiv preprint arXiv:1911.02054 (2019).
 
