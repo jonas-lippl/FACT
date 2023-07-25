@@ -66,7 +66,10 @@ def digit_five_dataset_read(domain, batch_size, device, scale=False, index_range
 
 
 def office_datasets_read(domain: str, dataset_name: str, batch_size: int, index_range=None, device: str | None = None):
-    data_dir = f"data/{dataset_name}/{domain}"
+    if dataset_name == 'office':
+        data_dir = f"data/{dataset_name}/{domain}/images"
+    else:
+        data_dir = f"data/{dataset_name}/{domain}"
     print(f"Load {data_dir}...")
     transform = transforms.Compose([transforms.ToTensor(),
                                     transforms.Resize([300, 300]),
