@@ -4,7 +4,7 @@ This repository implements FACT as introduced by Schrod et al. 2023 [[1]](https:
 
 ### Download the data
 To run the experiments the respective data has to be downloaded and added to `./data`.
-The Digit-Five images can be obtained from [Google Drive](https://drive.google.com/open?id=1A4RJOFj4BJkmliiEL7g9WzNIDUHLxfmm) [2], download and add the `.mat` files to `./data/digit-five`.
+The Digit-Five images can be obtained from [here](https://wjdcloud.blob.core.windows.net/dataset/dg5.tar.gz) [2], download and add the `.mat` files to `./data/digit-five`.
 
 To use the Office-Caltech10 [3] dataset clone [this](https://github.com/ChristophRaab/Office_Caltech_DA_Dataset) repository and copy the four image folders into `./data/office_caltech_10`.
 
